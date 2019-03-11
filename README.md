@@ -1,5 +1,9 @@
-# Autosub <a href="https://pypi.python.org/pypi/autosub"><img src="https://img.shields.io/pypi/v/autosub.svg"></img></a>
-  
+# Autosub-dual <a href="https://pypi.python.org/pypi/autosub"><img src="https://img.shields.io/pypi/v/autosub.svg"></img></a>
+
+[Detailed Information](https://boblee.cn/2019/03/12/autogenerating-dual-subtitles-for-video-shi-pin-z/)
+[](https://github.com/bobleer/autosub-dual/raw/master/Theresa%20May%20warns%20MPs%20-%20'We%20may%20never%20leave%20the%20EU%20at%20all'-R8HWmT1r99Q-0001.jpg)
+
+
 ### Auto-generated subtitles for any video
 
 Autosub is a utility for automatic speech recognition and subtitle generation. It takes a video or an audio file as input, performs voice activity detection to find speech regions, makes parallel requests to Google Web Speech API to generate transcriptions for those regions, (optionally) translates them to a different language, and finally saves the resulting subtitles to disk. It supports a variety of input and output languages (to see which, run the utility with the argument `--list-languages`) and can currently produce subtitles in either the [SRT format](https://en.wikipedia.org/wiki/SubRip) or simple [JSON](https://en.wikipedia.org/wiki/JSON).
