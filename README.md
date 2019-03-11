@@ -1,6 +1,7 @@
 # Autosub-dual <a href="https://pypi.python.org/pypi/autosub"><img src="https://img.shields.io/pypi/v/autosub.svg"></img></a>
 
 [Detailed Information](https://boblee.cn/2019/03/12/autogenerating-dual-subtitles-for-video-shi-pin-z/)
+
 ![](https://github.com/bobleer/autosub-dual/raw/master/Theresa%20May%20warns%20MPs%20-%20'We%20may%20never%20leave%20the%20EU%20at%20all'-R8HWmT1r99Q-0001.jpg)
 
 
