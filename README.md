@@ -1,4 +1,4 @@
-# Autosub-dual <a href="https://pypi.python.org/pypi/autosub"><img src="https://img.shields.io/pypi/v/autosub.svg"></img></a>
+# Autosub-dual
 
 ## [Modification method](https://boblee.cn/2019/03/12/autogenerating-dual-subtitles-for-video-shi-pin-z/)
 
