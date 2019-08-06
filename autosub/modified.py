@@ -1,4 +1,4 @@
-#!/usr/local/opt/python@2/bin/python2.7
+#!/usr/local/opt/python/bin/python3.7
 import argparse
 import audioop
 from googleapiclient.discovery import build
