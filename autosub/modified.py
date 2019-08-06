@@ -264,9 +264,8 @@ def main():
                     pbar = ProgressBar(widgets=widgets, maxval=len(regions)).start()
                     translated_transcripts = []
                     for i, transcript in enumerate(pool.imap(translator, transcripts)):
-                        if transcript != None:
-                            translated_transcripts.append("%s\n%s"%(transcripts[i], transcript))
-                            pbar.update(i)
+                        translated_transcripts.append("%s\n%s"%(transcripts[i], transcript))
+                        pbar.update(i)
                     pbar.finish()
                     transcripts = translated_transcripts
                 else:
