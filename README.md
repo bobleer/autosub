@@ -3,7 +3,7 @@
 ## [Modification method](https://boblee.cn/2019/03/12/autogenerating-dual-subtitles-for-video-shi-pin-z/)
   
 ## Install && Replace original script
-```
+```bash
 # macOS
 brew install ffmpeg
 pip install autosub
@@ -14,7 +14,7 @@ curl https://raw.githubusercontent.com/bobleer/autosub-dual/master/autosub/modif
 ```
 
 ## Usage
-```
+```bash
 # need Google Translate API key
 autosub -D zh-CN -K [APIKEY] [VIDEOPATH]
 ```
