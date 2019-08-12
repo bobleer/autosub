@@ -1,6 +1,23 @@
 # Autosub-dual
 
 ## [Modification method](https://boblee.cn/2019/03/12/autogenerating-dual-subtitles-for-video-shi-pin-z/)
+  
+## Install && Replace original script
+```
+# macOS
+brew install ffmpeg
+pip install autosub
+
+mv /usr/local/bin/autosub /usr/local/bin/autosub.bak
+
+curl https://raw.githubusercontent.com/bobleer/autosub-dual/master/autosub/modified.py -o /usr/local/bin/autosub && chmod +x /usr/local/bin/autosub
+```
+
+## Usage
+```
+# need Google Translate API key
+autosub -D zh-CN -K [APIKEY] [VIDEOPATH]
+```
 
 ![](https://github.com/bobleer/autosub-dual/raw/master/Theresa%20May%20warns%20MPs%20-%20'We%20may%20never%20leave%20the%20EU%20at%20all'-R8HWmT1r99Q-0001.jpg)
 
